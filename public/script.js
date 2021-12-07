@@ -5,7 +5,8 @@ document
   .addEventListener("click", (e) => {
     e.preventDefault();
 
-    const pageToScrap = document.getElementById("page").value;
+    // const pageToScrap = document.getElementById("page").value;
+    const pageToScrap = "https://www.senscritique.com/search?q=matrix%20resurrections";
 
     if (!pageToScrap)
       return (document.getElementById("result").textContent =
